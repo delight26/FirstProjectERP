@@ -1,0 +1,29 @@
+body {
+	font: normal 15px Verdana, Geneva, sans-serif;
+	line-height: 1.8em;
+	margin: 0; padding: 0;
+}
+h2 {font: normal 3.5em Georgia, "Times New Roman", Times, serif; margin: 0; padding: 0;}
+.box {width: 500px; margin: 20px auto;	padding: 20px;}
+#dark {	background: #222; color: #fff;}
+
+#indented ul{
+	margin: 20px 0; padding: 0; 
+	list-style: none;
+}
+#indented ul li {
+	border-top: 1px solid #333; 
+	border-bottom: 1px solid #111;
+}
+#indented ul li:first-child {border-top: none;}
+#indented ul li:last-child {border-bottom: none;}
+#indented ul li a {
+	padding: 10px;	
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+#indented ul li a:hover {background: #111;}
+.container {
+	border-radius: 20px;
+}

@@ -1,0 +1,157 @@
+@CHARSET "UTF-8";
+
+table {	
+	padding: 0 0;	
+	border-collapse: collapse;
+	line-height: 160%;
+	font-size: 0.75em;
+	left : 300px;
+	top : 20px;
+	margin: -340px 300px;
+/*	border: 1px dotted #787878; */
+}
+tr { padding: 0 0; }
+.level, .re {
+	padding: 0 0;
+	margin: 0 0;
+	border: none;
+}
+.readTable { width: 500px; }
+.listTable { width: 700px; }
+.contentTable { width: 500px; }
+.boardTitle{
+	height: 60px;
+	line-height: 60px;	
+	text-align: center;	
+}
+.tdSpan {
+	height: 40px;
+	line-height: 40px;
+	text-align: center; 
+}
+.readTh {
+	width: 100px;	
+	padding-right: 10px;
+	/* background: #EEEEEE; */
+	text-align: right;	
+}
+.readTd {
+	width: 580px;
+}
+.listCount {
+	text-align: left; 
+	padding-left: 15px;
+	padding-bottom: 5px;
+	border-bottom: 1px dotted #787878;
+}
+.listWrite { 
+	text-align: right; 
+	padding-right: 15px;
+	padding-bottom: 5px;
+	border-bottom: 1px dotted #787878; 
+}
+.listThNo { 
+	width: 50px; 
+	height: 30px;
+	text-align: center; 
+	border: 1px solid #787878; 
+	background: #EAEAEA; 
+}
+.listThTitle { 
+	width: 360px; 
+	text-align: center;  
+	border: 1px solid #787878;  
+	background: #EAEAEA; 
+}
+.listThWriter { 
+	width: 80px; 
+	text-align: center;  
+	border: 1px solid #787878; 
+	background: #EAEAEA; 
+}
+.listThDate { 
+	width: 100px; 
+	text-align: center;  
+	border: 1px solid #787878;  
+	background: #EAEAEA; 
+}
+.listThCount {
+	width: 50px; 
+	text-align: center;  
+	border: 1px solid #787878;  
+	background: #EAEAEA;
+}
+.listThIp {
+	width: 60px; 
+	text-align: center;  
+	border: 1px solid #787878;  
+	background: #EAEAEA;
+}
+.listTdSpan { 
+	height: 30px; 
+	text-align: center; 
+	font-size: 12px; 
+}
+.listTdNo { 
+	height: 30px; 
+	text-align: center; 
+	border: 1px dotted #787878; 
+}
+.listTdTitle {	
+	margin: 0 0;
+	padding: 0 0 0 10px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px dotted #787878;
+}
+.titleEllipsis { 
+	padding: 5px 0 5px 10px;
+	margin: 0 0;
+	display: inline-block;
+	width: 330px;
+	white-space: nowrap; 
+	overflow: hidden; 
+	text-overflow: ellipsis;
+}
+.listTdWriter {
+	text-align: center;		  
+	border: 1px dotted #787878; 
+}
+.listTdDate {
+	text-align: center;	  
+	border: 1px dotted #787878; 
+}
+.listTdCount {
+	text-align: center;	  
+	border: 1px dotted #787878; 
+}
+.listTdIp {
+	text-align: center;	  
+	border: 1px dotted #787878;
+}
+.listPage { 
+	height: 30px;
+	text-align: center;
+}
+.contentTh { 
+	height: 30px;
+	width: 100px; 
+	text-align: center;
+	border: 1px dotted #787878;	
+}
+.contentTd1 {
+	width: 250px;
+	text-align: center;
+	border: 1px dotted #787878;
+}
+.contentTitle, .readContent {	
+	width: 580px;
+	padding-left: 10px;
+	border: 1px dotted #787878;	
+	
+	/* 셀 내용을 자동 줄 바꿈 하기 */
+	word-break: break-all;
+}
+
+textarea { border: 1px solid #999999; font-size: 12px; }
+input {	height: 20px; 	border: 1px solid #999999; }
